@@ -8,13 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		C062571F2141639E002F9621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062571E2141639E002F9621 /* AppDelegate.swift */; };
-		C06257212141639E002F9621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257202141639E002F9621 /* ViewController.swift */; };
 		C06257242141639E002F9621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06257222141639E002F9621 /* Main.storyboard */; };
 		C06257272141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C06257252141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld */; };
 		C06257292141639F002F9621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06257282141639F002F9621 /* Assets.xcassets */; };
 		C062572C2141639F002F9621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C062572A2141639F002F9621 /* LaunchScreen.storyboard */; };
 		C06257372141639F002F9621 /* Smart_Convertor_EUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257362141639F002F9621 /* Smart_Convertor_EUTests.swift */; };
 		C06257422141639F002F9621 /* Smart_Convertor_EUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257412141639F002F9621 /* Smart_Convertor_EUUITests.swift */; };
+		C0625768214163D3002F9621 /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625750214163D3002F9621 /* RateCell.swift */; };
+		C0625769214163D3002F9621 /* RateCollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625751214163D3002F9621 /* RateCollectionExtension.swift */; };
+		C062576A214163D3002F9621 /* SelectCurrencyPickerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625752214163D3002F9621 /* SelectCurrencyPickerExt.swift */; };
+		C062576B214163D3002F9621 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625753214163D3002F9621 /* ColorExt.swift */; };
+		C062576C214163D3002F9621 /* NotificationNameExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625754214163D3002F9621 /* NotificationNameExt.swift */; };
+		C062576D214163D3002F9621 /* TextExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625755214163D3002F9621 /* TextExt.swift */; };
+		C062576E214163D3002F9621 /* MenuTableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625756214163D3002F9621 /* MenuTableExtension.swift */; };
+		C062576F214163D3002F9621 /* MainHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625758214163D3002F9621 /* MainHandlers.swift */; };
+		C0625770214163D3002F9621 /* SelectCurrencyHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */; };
+		C0625771214163D3002F9621 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575B214163D3002F9621 /* CurrencyModel.swift */; };
+		C0625772214163D3002F9621 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575C214163D3002F9621 /* MenuModel.swift */; };
+		C0625773214163D3002F9621 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575E214163D3002F9621 /* ShapeView.swift */; };
+		C0625774214163D3002F9621 /* MainSmallLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575F214163D3002F9621 /* MainSmallLabel.swift */; };
+		C0625775214163D3002F9621 /* MainPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625760214163D3002F9621 /* MainPickerView.swift */; };
+		C0625776214163D3002F9621 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625761214163D3002F9621 /* MainImageView.swift */; };
+		C0625777214163D3002F9621 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625762214163D3002F9621 /* ShadowView.swift */; };
+		C0625778214163D3002F9621 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625763214163D3002F9621 /* MainButton.swift */; };
+		C0625779214163D3002F9621 /* MainLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625764214163D3002F9621 /* MainLabel.swift */; };
+		C062577A214163D3002F9621 /* SelectCurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625766214163D3002F9621 /* SelectCurrencyVC.swift */; };
+		C062577B214163D3002F9621 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625767214163D3002F9621 /* MainVC.swift */; };
+		C062577D21416664002F9621 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062577C21416664002F9621 /* AboutVC.swift */; };
+		C062577F21416705002F9621 /* AboutHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062577E21416705002F9621 /* AboutHandlers.swift */; };
+		C0625783214168F4002F9621 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625782214168F4002F9621 /* NavigationVC.swift */; };
+		C062578521416A30002F9621 /* NaviExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578421416A30002F9621 /* NaviExt.swift */; };
+		C062578721416B2E002F9621 /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578621416B2E002F9621 /* TutorialVC.swift */; };
+		C062578921416BFA002F9621 /* RatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578821416BF9002F9621 /* RatesVC.swift */; };
+		C062578B21416C8B002F9621 /* RateDiffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578A21416C8B002F9621 /* RateDiffCell.swift */; };
+		C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578C21416D66002F9621 /* RateDiffCollection.swift */; };
+		C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578E21416D9C002F9621 /* RatesHandlers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +65,6 @@
 /* Begin PBXFileReference section */
 		C062571B2141639E002F9621 /* Smart Convertor EU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Convertor EU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C062571E2141639E002F9621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C06257202141639E002F9621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C06257232141639E002F9621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C06257262141639E002F9621 /* Smart_Convertor_EU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Convertor_EU.xcdatamodel; sourceTree = "<group>"; };
 		C06257282141639F002F9621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +76,35 @@
 		C062573D2141639F002F9621 /* Smart Convertor EUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Convertor EUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06257412141639F002F9621 /* Smart_Convertor_EUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Convertor_EUUITests.swift; sourceTree = "<group>"; };
 		C06257432141639F002F9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0625750214163D3002F9621 /* RateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
+		C0625751214163D3002F9621 /* RateCollectionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCollectionExtension.swift; sourceTree = "<group>"; };
+		C0625752214163D3002F9621 /* SelectCurrencyPickerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyPickerExt.swift; sourceTree = "<group>"; };
+		C0625753214163D3002F9621 /* ColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		C0625754214163D3002F9621 /* NotificationNameExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNameExt.swift; sourceTree = "<group>"; };
+		C0625755214163D3002F9621 /* TextExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextExt.swift; sourceTree = "<group>"; };
+		C0625756214163D3002F9621 /* MenuTableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableExtension.swift; sourceTree = "<group>"; };
+		C0625758214163D3002F9621 /* MainHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHandlers.swift; sourceTree = "<group>"; };
+		C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyHandlers.swift; sourceTree = "<group>"; };
+		C062575B214163D3002F9621 /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		C062575C214163D3002F9621 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		C062575E214163D3002F9621 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		C062575F214163D3002F9621 /* MainSmallLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSmallLabel.swift; sourceTree = "<group>"; };
+		C0625760214163D3002F9621 /* MainPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPickerView.swift; sourceTree = "<group>"; };
+		C0625761214163D3002F9621 /* MainImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
+		C0625762214163D3002F9621 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		C0625763214163D3002F9621 /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		C0625764214163D3002F9621 /* MainLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainLabel.swift; sourceTree = "<group>"; };
+		C0625766214163D3002F9621 /* SelectCurrencyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyVC.swift; sourceTree = "<group>"; };
+		C0625767214163D3002F9621 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C062577C21416664002F9621 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		C062577E21416705002F9621 /* AboutHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutHandlers.swift; sourceTree = "<group>"; };
+		C0625782214168F4002F9621 /* NavigationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVC.swift; sourceTree = "<group>"; };
+		C062578421416A30002F9621 /* NaviExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviExt.swift; sourceTree = "<group>"; };
+		C062578621416B2E002F9621 /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
+		C062578821416BF9002F9621 /* RatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesVC.swift; sourceTree = "<group>"; };
+		C062578A21416C8B002F9621 /* RateDiffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDiffCell.swift; sourceTree = "<group>"; };
+		C062578C21416D66002F9621 /* RateDiffCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDiffCollection.swift; sourceTree = "<group>"; };
+		C062578E21416D9C002F9621 /* RatesHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesHandlers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				C062571E2141639E002F9621 /* AppDelegate.swift */,
-				C06257202141639E002F9621 /* ViewController.swift */,
+				C0625765214163D3002F9621 /* Controllers */,
+				C062574F214163D3002F9621 /* Extensions */,
+				C0625757214163D3002F9621 /* Handlers */,
+				C062575A214163D3002F9621 /* Models */,
+				C062575D214163D3002F9621 /* SubClasses */,
 				C06257222141639E002F9621 /* Main.storyboard */,
 				C06257282141639F002F9621 /* Assets.xcassets */,
 				C062572A2141639F002F9621 /* LaunchScreen.storyboard */,
@@ -126,6 +186,70 @@
 				C06257432141639F002F9621 /* Info.plist */,
 			);
 			path = "Smart Convertor EUUITests";
+			sourceTree = "<group>";
+		};
+		C062574F214163D3002F9621 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0625750214163D3002F9621 /* RateCell.swift */,
+				C062578A21416C8B002F9621 /* RateDiffCell.swift */,
+				C0625751214163D3002F9621 /* RateCollectionExtension.swift */,
+				C062578C21416D66002F9621 /* RateDiffCollection.swift */,
+				C0625752214163D3002F9621 /* SelectCurrencyPickerExt.swift */,
+				C0625753214163D3002F9621 /* ColorExt.swift */,
+				C0625754214163D3002F9621 /* NotificationNameExt.swift */,
+				C062578421416A30002F9621 /* NaviExt.swift */,
+				C0625755214163D3002F9621 /* TextExt.swift */,
+				C0625756214163D3002F9621 /* MenuTableExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C0625757214163D3002F9621 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				C0625758214163D3002F9621 /* MainHandlers.swift */,
+				C062578E21416D9C002F9621 /* RatesHandlers.swift */,
+				C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */,
+				C062577E21416705002F9621 /* AboutHandlers.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		C062575A214163D3002F9621 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C062575B214163D3002F9621 /* CurrencyModel.swift */,
+				C062575C214163D3002F9621 /* MenuModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C062575D214163D3002F9621 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C062575E214163D3002F9621 /* ShapeView.swift */,
+				C062575F214163D3002F9621 /* MainSmallLabel.swift */,
+				C0625760214163D3002F9621 /* MainPickerView.swift */,
+				C0625761214163D3002F9621 /* MainImageView.swift */,
+				C0625762214163D3002F9621 /* ShadowView.swift */,
+				C0625763214163D3002F9621 /* MainButton.swift */,
+				C0625764214163D3002F9621 /* MainLabel.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		C0625765214163D3002F9621 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0625767214163D3002F9621 /* MainVC.swift */,
+				C0625766214163D3002F9621 /* SelectCurrencyVC.swift */,
+				C062578621416B2E002F9621 /* TutorialVC.swift */,
+				C0625782214168F4002F9621 /* NavigationVC.swift */,
+				C062578821416BF9002F9621 /* RatesVC.swift */,
+				C062577C21416664002F9621 /* AboutVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +383,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06257212141639E002F9621 /* ViewController.swift in Sources */,
+				C0625777214163D3002F9621 /* ShadowView.swift in Sources */,
+				C0625776214163D3002F9621 /* MainImageView.swift in Sources */,
+				C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */,
+				C062577F21416705002F9621 /* AboutHandlers.swift in Sources */,
+				C0625774214163D3002F9621 /* MainSmallLabel.swift in Sources */,
+				C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */,
+				C0625779214163D3002F9621 /* MainLabel.swift in Sources */,
+				C062576A214163D3002F9621 /* SelectCurrencyPickerExt.swift in Sources */,
+				C062578721416B2E002F9621 /* TutorialVC.swift in Sources */,
+				C062576B214163D3002F9621 /* ColorExt.swift in Sources */,
+				C062577D21416664002F9621 /* AboutVC.swift in Sources */,
+				C0625771214163D3002F9621 /* CurrencyModel.swift in Sources */,
+				C0625783214168F4002F9621 /* NavigationVC.swift in Sources */,
+				C0625770214163D3002F9621 /* SelectCurrencyHandlers.swift in Sources */,
 				C06257272141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld in Sources */,
+				C062576C214163D3002F9621 /* NotificationNameExt.swift in Sources */,
+				C0625773214163D3002F9621 /* ShapeView.swift in Sources */,
+				C0625769214163D3002F9621 /* RateCollectionExtension.swift in Sources */,
+				C062578921416BFA002F9621 /* RatesVC.swift in Sources */,
+				C062578B21416C8B002F9621 /* RateDiffCell.swift in Sources */,
+				C062576F214163D3002F9621 /* MainHandlers.swift in Sources */,
+				C062577A214163D3002F9621 /* SelectCurrencyVC.swift in Sources */,
+				C062576E214163D3002F9621 /* MenuTableExtension.swift in Sources */,
+				C062577B214163D3002F9621 /* MainVC.swift in Sources */,
+				C0625772214163D3002F9621 /* MenuModel.swift in Sources */,
+				C0625778214163D3002F9621 /* MainButton.swift in Sources */,
+				C062578521416A30002F9621 /* NaviExt.swift in Sources */,
 				C062571F2141639E002F9621 /* AppDelegate.swift in Sources */,
+				C0625775214163D3002F9621 /* MainPickerView.swift in Sources */,
+				C062576D214163D3002F9621 /* TextExt.swift in Sources */,
+				C0625768214163D3002F9621 /* RateCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +591,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4NGAZXKWW;
 				INFOPLIST_FILE = "Smart Convertor EU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,13 +610,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4NGAZXKWW;
 				INFOPLIST_FILE = "Smart Convertor EU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EU";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
