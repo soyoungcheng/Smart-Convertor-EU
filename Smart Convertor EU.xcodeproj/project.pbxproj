@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C062571F2141639E002F9621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062571E2141639E002F9621 /* AppDelegate.swift */; };
+		C06257212141639E002F9621 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257202141639E002F9621 /* ViewController.swift */; };
+		C06257242141639E002F9621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06257222141639E002F9621 /* Main.storyboard */; };
+		C06257272141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C06257252141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld */; };
+		C06257292141639F002F9621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06257282141639F002F9621 /* Assets.xcassets */; };
+		C062572C2141639F002F9621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C062572A2141639F002F9621 /* LaunchScreen.storyboard */; };
+		C06257372141639F002F9621 /* Smart_Convertor_EUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257362141639F002F9621 /* Smart_Convertor_EUTests.swift */; };
+		C06257422141639F002F9621 /* Smart_Convertor_EUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06257412141639F002F9621 /* Smart_Convertor_EUUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C06257332141639F002F9621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06257132141639E002F9621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C062571A2141639E002F9621;
+			remoteInfo = "Smart Convertor EU";
+		};
+		C062573E2141639F002F9621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C06257132141639E002F9621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C062571A2141639E002F9621;
+			remoteInfo = "Smart Convertor EU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C062571B2141639E002F9621 /* Smart Convertor EU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Convertor EU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C062571E2141639E002F9621 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C06257202141639E002F9621 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C06257232141639E002F9621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C06257262141639E002F9621 /* Smart_Convertor_EU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Convertor_EU.xcdatamodel; sourceTree = "<group>"; };
+		C06257282141639F002F9621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C062572B2141639F002F9621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C062572D2141639F002F9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06257322141639F002F9621 /* Smart Convertor EUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Convertor EUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06257362141639F002F9621 /* Smart_Convertor_EUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Convertor_EUTests.swift; sourceTree = "<group>"; };
+		C06257382141639F002F9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C062573D2141639F002F9621 /* Smart Convertor EUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Convertor EUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06257412141639F002F9621 /* Smart_Convertor_EUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Convertor_EUUITests.swift; sourceTree = "<group>"; };
+		C06257432141639F002F9621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C06257182141639E002F9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062572F2141639F002F9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062573A2141639F002F9621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C06257122141639E002F9621 = {
+			isa = PBXGroup;
+			children = (
+				C062571D2141639E002F9621 /* Smart Convertor EU */,
+				C06257352141639F002F9621 /* Smart Convertor EUTests */,
+				C06257402141639F002F9621 /* Smart Convertor EUUITests */,
+				C062571C2141639E002F9621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C062571C2141639E002F9621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C062571B2141639E002F9621 /* Smart Convertor EU.app */,
+				C06257322141639F002F9621 /* Smart Convertor EUTests.xctest */,
+				C062573D2141639F002F9621 /* Smart Convertor EUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C062571D2141639E002F9621 /* Smart Convertor EU */ = {
+			isa = PBXGroup;
+			children = (
+				C062571E2141639E002F9621 /* AppDelegate.swift */,
+				C06257202141639E002F9621 /* ViewController.swift */,
+				C06257222141639E002F9621 /* Main.storyboard */,
+				C06257282141639F002F9621 /* Assets.xcassets */,
+				C062572A2141639F002F9621 /* LaunchScreen.storyboard */,
+				C062572D2141639F002F9621 /* Info.plist */,
+				C06257252141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld */,
+			);
+			path = "Smart Convertor EU";
+			sourceTree = "<group>";
+		};
+		C06257352141639F002F9621 /* Smart Convertor EUTests */ = {
+			isa = PBXGroup;
+			children = (
+				C06257362141639F002F9621 /* Smart_Convertor_EUTests.swift */,
+				C06257382141639F002F9621 /* Info.plist */,
+			);
+			path = "Smart Convertor EUTests";
+			sourceTree = "<group>";
+		};
+		C06257402141639F002F9621 /* Smart Convertor EUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C06257412141639F002F9621 /* Smart_Convertor_EUUITests.swift */,
+				C06257432141639F002F9621 /* Info.plist */,
+			);
+			path = "Smart Convertor EUUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C062571A2141639E002F9621 /* Smart Convertor EU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06257462141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EU" */;
+			buildPhases = (
+				C06257172141639E002F9621 /* Sources */,
+				C06257182141639E002F9621 /* Frameworks */,
+				C06257192141639E002F9621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Convertor EU";
+			productName = "Smart Convertor EU";
+			productReference = C062571B2141639E002F9621 /* Smart Convertor EU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C06257312141639F002F9621 /* Smart Convertor EUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06257492141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EUTests" */;
+			buildPhases = (
+				C062572E2141639F002F9621 /* Sources */,
+				C062572F2141639F002F9621 /* Frameworks */,
+				C06257302141639F002F9621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C06257342141639F002F9621 /* PBXTargetDependency */,
+			);
+			name = "Smart Convertor EUTests";
+			productName = "Smart Convertor EUTests";
+			productReference = C06257322141639F002F9621 /* Smart Convertor EUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C062573C2141639F002F9621 /* Smart Convertor EUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C062574C2141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EUUITests" */;
+			buildPhases = (
+				C06257392141639F002F9621 /* Sources */,
+				C062573A2141639F002F9621 /* Frameworks */,
+				C062573B2141639F002F9621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C062573F2141639F002F9621 /* PBXTargetDependency */,
+			);
+			name = "Smart Convertor EUUITests";
+			productName = "Smart Convertor EUUITests";
+			productReference = C062573D2141639F002F9621 /* Smart Convertor EUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06257132141639E002F9621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Uladzislau Daratsiuk";
+				TargetAttributes = {
+					C062571A2141639E002F9621 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C06257312141639F002F9621 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C062571A2141639E002F9621;
+					};
+					C062573C2141639F002F9621 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C062571A2141639E002F9621;
+					};
+				};
+			};
+			buildConfigurationList = C06257162141639E002F9621 /* Build configuration list for PBXProject "Smart Convertor EU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C06257122141639E002F9621;
+			productRefGroup = C062571C2141639E002F9621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C062571A2141639E002F9621 /* Smart Convertor EU */,
+				C06257312141639F002F9621 /* Smart Convertor EUTests */,
+				C062573C2141639F002F9621 /* Smart Convertor EUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C06257192141639E002F9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C062572C2141639F002F9621 /* LaunchScreen.storyboard in Resources */,
+				C06257292141639F002F9621 /* Assets.xcassets in Resources */,
+				C06257242141639E002F9621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06257302141639F002F9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062573B2141639F002F9621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C06257172141639E002F9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06257212141639E002F9621 /* ViewController.swift in Sources */,
+				C06257272141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld in Sources */,
+				C062571F2141639E002F9621 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C062572E2141639F002F9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06257372141639F002F9621 /* Smart_Convertor_EUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06257392141639F002F9621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06257422141639F002F9621 /* Smart_Convertor_EUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C06257342141639F002F9621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C062571A2141639E002F9621 /* Smart Convertor EU */;
+			targetProxy = C06257332141639F002F9621 /* PBXContainerItemProxy */;
+		};
+		C062573F2141639F002F9621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C062571A2141639E002F9621 /* Smart Convertor EU */;
+			targetProxy = C062573E2141639F002F9621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C06257222141639E002F9621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C06257232141639E002F9621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C062572A2141639F002F9621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C062572B2141639F002F9621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C06257442141639F002F9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C06257452141639F002F9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C06257472141639F002F9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C06257482141639F002F9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C062574A2141639F002F9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Convertor EU.app/Smart Convertor EU";
+			};
+			name = Debug;
+		};
+		C062574B2141639F002F9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Convertor EU.app/Smart Convertor EU";
+			};
+			name = Release;
+		};
+		C062574D2141639F002F9621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Convertor EU";
+			};
+			name = Debug;
+		};
+		C062574E2141639F002F9621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4NGAZXKWW;
+				INFOPLIST_FILE = "Smart Convertor EUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uladzislau.daratsiuk.Smart-Convertor-EUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Convertor EU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C06257162141639E002F9621 /* Build configuration list for PBXProject "Smart Convertor EU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06257442141639F002F9621 /* Debug */,
+				C06257452141639F002F9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06257462141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06257472141639F002F9621 /* Debug */,
+				C06257482141639F002F9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C06257492141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C062574A2141639F002F9621 /* Debug */,
+				C062574B2141639F002F9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C062574C2141639F002F9621 /* Build configuration list for PBXNativeTarget "Smart Convertor EUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C062574D2141639F002F9621 /* Debug */,
+				C062574E2141639F002F9621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C06257252141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C06257262141639E002F9621 /* Smart_Convertor_EU.xcdatamodel */,
+			);
+			currentVersion = C06257262141639E002F9621 /* Smart_Convertor_EU.xcdatamodel */;
+			path = Smart_Convertor_EU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C06257132141639E002F9621 /* Project object */;
+}
