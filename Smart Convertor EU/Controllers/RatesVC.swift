@@ -14,6 +14,7 @@ class RatesVC: UIViewController {
     var rates = [Rate]()
     var filtredResults = [Rate]()
     var currenntCurrency: String = "EUR"
+    var ratesHistory = [Rate]()
     
     lazy var rateCollection: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -44,8 +45,8 @@ class RatesVC: UIViewController {
         
         rateCollection.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         rateCollection.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        rateCollection.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
-        rateCollection.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+        rateCollection.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        rateCollection.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         rateCollection.topAnchor.constraint(equalTo: view.topAnchor, constant: 20).isActive = true
         rateCollection.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -20).isActive = true
     }
@@ -70,6 +71,8 @@ class RatesVC: UIViewController {
         rateCollection.delegate = self
         rateCollection.dataSource = self
         loadRates(currency: currenntCurrency)
+
     }
+
 
 }

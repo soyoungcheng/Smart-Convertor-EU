@@ -43,6 +43,7 @@
 		C062578B21416C8B002F9621 /* RateDiffCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578A21416C8B002F9621 /* RateDiffCell.swift */; };
 		C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578C21416D66002F9621 /* RateDiffCollection.swift */; };
 		C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578E21416D9C002F9621 /* RatesHandlers.swift */; };
+		C0C3510D214466870097AD4C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3510C214466870097AD4C /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		C062578A21416C8B002F9621 /* RateDiffCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDiffCell.swift; sourceTree = "<group>"; };
 		C062578C21416D66002F9621 /* RateDiffCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDiffCollection.swift; sourceTree = "<group>"; };
 		C062578E21416D9C002F9621 /* RatesHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesHandlers.swift; sourceTree = "<group>"; };
+		C0C3510C214466870097AD4C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 		C062574F214163D3002F9621 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C0C3510C214466870097AD4C /* Alert.swift */,
 				C0625750214163D3002F9621 /* RateCell.swift */,
 				C062578A21416C8B002F9621 /* RateDiffCell.swift */,
 				C0625751214163D3002F9621 /* RateCollectionExtension.swift */,
@@ -413,6 +416,7 @@
 				C062571F2141639E002F9621 /* AppDelegate.swift in Sources */,
 				C0625775214163D3002F9621 /* MainPickerView.swift in Sources */,
 				C062576D214163D3002F9621 /* TextExt.swift in Sources */,
+				C0C3510D214466870097AD4C /* Alert.swift in Sources */,
 				C0625768214163D3002F9621 /* RateCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

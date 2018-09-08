@@ -23,9 +23,12 @@ extension RatesVC: UICollectionViewDelegate, UICollectionViewDataSource, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let rate = rates[indexPath.row]
+        let oldRate = ratesHistory[indexPath.row]
         let cell  = rateCollection.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! RateDiffCell
         cell.updateData(rate: rate, entery: 0, currentCurrency: currenntCurrency)
+        cell.resulLabel.text = String(rate.rate - oldRate.rate)
         return cell
     }
     

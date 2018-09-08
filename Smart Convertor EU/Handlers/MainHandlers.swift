@@ -44,7 +44,7 @@ extension MainVC {
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             DispatchQueue.main.async {
                 if error != nil{
-//                    Alert.showBasic(title: "No connection", msg: "Please check your connection and press refresh button", vc: self)
+                    Alert.showBasic(title: "No connection", msg: "Please check your connection and press refresh button", vc: self)
                 }
                 else{
                     if data != nil{
@@ -69,6 +69,7 @@ extension MainVC {
         task.resume()
     }
     
+
     @objc public func handleInput(){
         rateCollection.reloadData()
     }
