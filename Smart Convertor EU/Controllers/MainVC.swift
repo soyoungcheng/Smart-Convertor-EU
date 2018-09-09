@@ -198,12 +198,14 @@ class MainVC: UIViewController {
         rateCollection.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant: 1).isActive = true
         rateCollection.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupNavBar()
         setupView()
+        toolBarSetup()
         loadRates(currency: currenntCurrency)
         rateCollection.delegate = self
         rateCollection.dataSource = self
@@ -211,6 +213,7 @@ class MainVC: UIViewController {
         menuTable.dataSource = self
         mainTextField.delegate = self
         menuList = generateMenuList()
+        mainTextField.returnKeyType = UIReturnKeyType.done
         selectedCurrencyObserver = NotificationCenter.default.addObserver(forName: .selectedCurrency, object: nil, queue: OperationQueue.main, using: { (notification) in
             let selectVc = notification.object as! SelectCurrencyVC
             self.currenntCurrency = selectVc.selectedCurrency!
