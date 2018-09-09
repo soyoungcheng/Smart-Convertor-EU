@@ -1,27 +1,25 @@
 //
 //  ActionButton.swift
-//  Leeroy Crew
+//  Smart Convertor EU
 //
-//  Created by Uladzislau Daratsiuk on 7/17/18.
+//  Created by Uladzislau Daratsiuk on 9/9/18.
 //  Copyright © 2018 Uladzislau Daratsiuk. All rights reserved.
 //
 
 import UIKit
 
-class MainButton: UIButton {
+class ActionButton: UIButton {
 
-    init(text: String) {
+    override init(frame: CGRect) {
         super.init(frame: .zero)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.clipsToBounds = true
         self.contentMode = .scaleAspectFill
-        self.setTitle(text, for: .normal)
         self.titleLabel?.textAlignment = .center
         self.setTitleColor(UIColor.white, for: .normal)
         self.titleLabel?.font = UIFont(name: "AppleSDGothicNeo-Light", size: 14)
         self.layer.cornerRadius = 5
-        self.backgroundColor = UIColor(named: "system")
-        self.tintColor = .white
+        self.tintColor = UIColor(named: "system")
         
         
     }

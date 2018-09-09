@@ -45,6 +45,9 @@
 		C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578E21416D9C002F9621 /* RatesHandlers.swift */; };
 		C0C3510D214466870097AD4C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3510C214466870097AD4C /* Alert.swift */; };
 		C0C3514D21453F3C0097AD4C /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3514C21453F3C0097AD4C /* MainScrollView.swift */; };
+		C0C3514F214572940097AD4C /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3514E214572940097AD4C /* TextFieldExtension.swift */; };
+		C0C35151214573420097AD4C /* EmailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C35150214573420097AD4C /* EmailExtension.swift */; };
+		C0C35153214574EF0097AD4C /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C35152214574EF0097AD4C /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,9 @@
 		C062578E21416D9C002F9621 /* RatesHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesHandlers.swift; sourceTree = "<group>"; };
 		C0C3510C214466870097AD4C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		C0C3514C21453F3C0097AD4C /* MainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
+		C0C3514E214572940097AD4C /* TextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		C0C35150214573420097AD4C /* EmailExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailExtension.swift; sourceTree = "<group>"; };
+		C0C35152214574EF0097AD4C /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,7 @@
 		C062574F214163D3002F9621 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C0C3514E214572940097AD4C /* TextFieldExtension.swift */,
 				C0C3510C214466870097AD4C /* Alert.swift */,
 				C0625750214163D3002F9621 /* RateCell.swift */,
 				C062578A21416C8B002F9621 /* RateDiffCell.swift */,
@@ -206,6 +213,7 @@
 				C062578421416A30002F9621 /* NaviExt.swift */,
 				C0625755214163D3002F9621 /* TextExt.swift */,
 				C0625756214163D3002F9621 /* MenuTableExtension.swift */,
+				C0C35150214573420097AD4C /* EmailExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 				C0625761214163D3002F9621 /* MainImageView.swift */,
 				C0625762214163D3002F9621 /* ShadowView.swift */,
 				C0625763214163D3002F9621 /* MainButton.swift */,
+				C0C35152214574EF0097AD4C /* ActionButton.swift */,
 				C0625764214163D3002F9621 /* MainLabel.swift */,
 			);
 			path = SubClasses;
@@ -391,7 +400,9 @@
 			files = (
 				C0625777214163D3002F9621 /* ShadowView.swift in Sources */,
 				C0625776214163D3002F9621 /* MainImageView.swift in Sources */,
+				C0C35151214573420097AD4C /* EmailExtension.swift in Sources */,
 				C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */,
+				C0C3514F214572940097AD4C /* TextFieldExtension.swift in Sources */,
 				C062577F21416705002F9621 /* AboutHandlers.swift in Sources */,
 				C0625774214163D3002F9621 /* MainSmallLabel.swift in Sources */,
 				C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */,
@@ -410,6 +421,7 @@
 				C0625769214163D3002F9621 /* RateCollectionExtension.swift in Sources */,
 				C062578921416BFA002F9621 /* RatesVC.swift in Sources */,
 				C062578B21416C8B002F9621 /* RateDiffCell.swift in Sources */,
+				C0C35153214574EF0097AD4C /* ActionButton.swift in Sources */,
 				C062576F214163D3002F9621 /* MainHandlers.swift in Sources */,
 				C062577A214163D3002F9621 /* SelectCurrencyVC.swift in Sources */,
 				C062576E214163D3002F9621 /* MenuTableExtension.swift in Sources */,

@@ -209,6 +209,7 @@ class MainVC: UIViewController {
         rateCollection.dataSource = self
         menuTable.delegate = self
         menuTable.dataSource = self
+        mainTextField.delegate = self
         menuList = generateMenuList()
         selectedCurrencyObserver = NotificationCenter.default.addObserver(forName: .selectedCurrency, object: nil, queue: OperationQueue.main, using: { (notification) in
             let selectVc = notification.object as! SelectCurrencyVC

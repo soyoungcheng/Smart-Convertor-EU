@@ -70,7 +70,6 @@ class TutorialVC: UIViewController {
         view.layer.shadowOffset = CGSize(width: 1, height: 5)
         view.layer.shadowRadius = 8
         view.layer.shadowOpacity = 0.2
-//        view.layer.shadowPath = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: .allCorners, cornerRadii: CGSize(width: 14, height: 14)).cgPath
         view.layer.shouldRasterize = true
         view.layer.rasterizationScale = UIScreen.main.scale
     }
