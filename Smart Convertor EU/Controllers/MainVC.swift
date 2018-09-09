@@ -107,8 +107,8 @@ class MainVC: UIViewController {
     fileprivate func toolBarSetup() {
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
-        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
-        let doneButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.done, target: self, action: #selector(self.finishedWithInput))
+        let flexibleSpace = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let doneButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.done, target: self, action: #selector(self.finishedWithInput))
         doneButton.tintColor = .black
         toolBar.setItems([flexibleSpace, doneButton], animated: true)
         mainTextField.inputAccessoryView = toolBar
