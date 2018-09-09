@@ -217,5 +217,4 @@ class MainVC: UIViewController {
             self.loadRates(currency: self.currenntCurrency)
         })
     }
-
 }

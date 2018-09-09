@@ -15,6 +15,8 @@ class TutorialVC: UIViewController {
     let firstTutorialLabel = MainLabel(text: "To get result just select currency and enter amount", textAligment: .left, numberOfLines: 3)
     let secondTutorialLabel = MainLabel(text: "To get details about rates for one the currencies just press on one of them", textAligment: .right, numberOfLines: 3)
     let secondTutorialImage = MainImageView(imageName: "tutorial3")
+    let thirdTutorialLabel = MainLabel(text: "Also we can help you to find nearest exchange point with our smart map in range of 2 km", textAligment: .left, numberOfLines: 3)
+    let thirdTutorialImage = MainImageView(imageName: "tutorial2")
     
     fileprivate func setupVIew(){
         view.addSubview(mainScrollView)
@@ -22,6 +24,8 @@ class TutorialVC: UIViewController {
         mainScrollView.addSubview(firstTutorialImage)
         mainScrollView.addSubview(secondTutorialLabel)
         mainScrollView.addSubview(secondTutorialImage)
+        mainScrollView.addSubview(thirdTutorialLabel)
+        mainScrollView.addSubview(thirdTutorialImage)
         style(view: firstTutorialImage)
         style(view: secondTutorialImage)
         
@@ -49,6 +53,16 @@ class TutorialVC: UIViewController {
         secondTutorialImage.widthAnchor.constraint(equalToConstant: 140).isActive = true
         secondTutorialImage.topAnchor.constraint(equalTo: secondTutorialLabel.bottomAnchor, constant: 20).isActive = true
         secondTutorialImage.heightAnchor.constraint(equalToConstant: 250).isActive = true
+        
+        thirdTutorialLabel.topAnchor.constraint(equalTo: secondTutorialImage.bottomAnchor, constant: 20).isActive = true
+        thirdTutorialLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        thirdTutorialLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+        thirdTutorialLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        thirdTutorialImage.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        thirdTutorialImage.widthAnchor.constraint(equalToConstant: 140).isActive = true
+        thirdTutorialImage.topAnchor.constraint(equalTo: thirdTutorialLabel.bottomAnchor, constant: 20).isActive = true
+        thirdTutorialImage.heightAnchor.constraint(equalToConstant: 250).isActive = true
     }
     
     fileprivate func setupNavBar(){

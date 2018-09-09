@@ -14,7 +14,7 @@ class MainScrollView: UIScrollView {
         super.init(frame: frame)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = UIColor(named: "background")
-        self.contentSize.height = 800
+        self.contentSize.height = 1000
     }
     
     required init?(coder aDecoder: NSCoder) {

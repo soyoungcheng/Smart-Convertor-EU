@@ -11,13 +11,17 @@ import UIKit
 
 extension RatesVC {
     
+    @objc public func handleUpdate(){
+        loadRates(currency: currentCurrency)
+    }
+    
     @objc public func loadRates(currency: String){
         let urlBased = "http://api.openrates.io/latest?base=\(currency)"
         guard let url = URL(string: urlBased) else {return}
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             DispatchQueue.main.async {
                 if error != nil{
-                    //                    Alert.showBasic(title: "No connection", msg: "Please check your connection and press refresh button", vc: self)
+                    Alert.showBasic(title: "No connection", msg: "Please check your connection and press refresh button", vc: self)
                 }
                 else{
                     if data != nil{
@@ -34,7 +38,6 @@ extension RatesVC {
                         }
                     }
                 }
-//                self.rateCollection.reloadData()
             }
         }
         task.resume()
