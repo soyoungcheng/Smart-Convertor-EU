@@ -37,8 +37,10 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-                let vc = RatesVC()
-                navigationController?.pushViewController(vc, animated: true)
+            let rate = rates[indexPath.row]
+            currencyForDetails = rate.currency
+            let vc = RatesVC()
+            navigationController?.pushViewController(vc, animated: true)
         
     }
     

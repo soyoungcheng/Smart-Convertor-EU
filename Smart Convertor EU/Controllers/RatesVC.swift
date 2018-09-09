@@ -10,11 +10,11 @@ import UIKit
 
 class RatesVC: UIViewController {
 
-    let cellId = "cellId"
-    var rates = [Rate]()
-    var filtredResults = [Rate]()
-    var currenntCurrency: String = "EUR"
-    var ratesHistory = [Rate]()
+    let cellId          = "cellId"
+    var rates           = [Rate]()
+    var filtredResults  = [Rate]()
+    var currentCurrency: String = "EUR"
+    var ratesHistory    = [Rate]()
     
     lazy var rateCollection: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -66,11 +66,12 @@ class RatesVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
+        currentCurrency = currencyForDetails!
         setupVIew()
         setupNavBar()
         rateCollection.delegate = self
         rateCollection.dataSource = self
-        loadRates(currency: currenntCurrency)
+        loadRates(currency: currentCurrency)
 
     }
 

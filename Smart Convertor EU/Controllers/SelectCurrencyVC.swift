@@ -14,8 +14,8 @@ class SelectCurrencyVC: UIViewController {
     var currencies = ["PHP","THB","TRY","SEK","CNY","PLN","AUD","RUB","SGD","INR","DKK","CHF","MYR","HKD","EUR","NOK","MXN","NZD","ZAR","HUF","HRK","BGN","KRW","CAD","GBP","ILS","RON","BRL","ISK","CZK","JPY","IDR"]
     
     let containerView = ShadowView()
-    let pickerView = MainPickerView()
-    let doneButton = MainButton(text: "Confirm")
+    let pickerView    = MainPickerView()
+    let doneButton    = MainButton(text: "Confirm")
     
     fileprivate func setupNavBar(){
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

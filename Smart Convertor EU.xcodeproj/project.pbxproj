@@ -44,6 +44,7 @@
 		C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578C21416D66002F9621 /* RateDiffCollection.swift */; };
 		C062578F21416D9C002F9621 /* RatesHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062578E21416D9C002F9621 /* RatesHandlers.swift */; };
 		C0C3510D214466870097AD4C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3510C214466870097AD4C /* Alert.swift */; };
+		C0C3514D21453F3C0097AD4C /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C3514C21453F3C0097AD4C /* MainScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		C062578C21416D66002F9621 /* RateDiffCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateDiffCollection.swift; sourceTree = "<group>"; };
 		C062578E21416D9C002F9621 /* RatesHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesHandlers.swift; sourceTree = "<group>"; };
 		C0C3510C214466870097AD4C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C0C3514C21453F3C0097AD4C /* MainScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 		C062575D214163D3002F9621 /* SubClasses */ = {
 			isa = PBXGroup;
 			children = (
+				C0C3514C21453F3C0097AD4C /* MainScrollView.swift */,
 				C062575E214163D3002F9621 /* ShapeView.swift */,
 				C062575F214163D3002F9621 /* MainSmallLabel.swift */,
 				C0625760214163D3002F9621 /* MainPickerView.swift */,
@@ -394,6 +397,7 @@
 				C062578D21416D66002F9621 /* RateDiffCollection.swift in Sources */,
 				C0625779214163D3002F9621 /* MainLabel.swift in Sources */,
 				C062576A214163D3002F9621 /* SelectCurrencyPickerExt.swift in Sources */,
+				C0C3514D21453F3C0097AD4C /* MainScrollView.swift in Sources */,
 				C062578721416B2E002F9621 /* TutorialVC.swift in Sources */,
 				C062576B214163D3002F9621 /* ColorExt.swift in Sources */,
 				C062577D21416664002F9621 /* AboutVC.swift in Sources */,

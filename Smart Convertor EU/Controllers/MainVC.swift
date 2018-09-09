@@ -8,6 +8,8 @@
 
 import UIKit
 
+var currencyForDetails: String?
+
 class MainVC: UIViewController {
     let cellId = "cellId"
     var rates = [Rate]()
