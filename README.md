@@ -1,4 +1,4 @@
-# Smart-Convertor-EU
+# Smart Currency v 2.0
 Online currency converter which working based on lightweight API for current and 
 historical foreign exchange (forex) rates published by the European Central Bank.
 <br></br>
