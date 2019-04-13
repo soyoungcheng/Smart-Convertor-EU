@@ -15,9 +15,9 @@ class CurrencyData: Decodable {
     let rates: [String: Double]
     
     init(base: String, date: String, rates: [String: Double]) {
-        self.base = base
-        self.date = date
-        self.rates = rates
+        self.base   = base
+        self.date   = date
+        self.rates  = rates
     }
 }
 
@@ -26,7 +26,7 @@ class Rate {
     let rate: Double
     
     init(currency: String, rate: Double) {
-        self.currency = currency
-        self.rate = rate
+        self.currency   = currency
+        self.rate       = rate
     }
 }

@@ -14,7 +14,7 @@ class Menu {
     var vc: UIViewController?
     
     init(title: String, vc: UIViewController) {
-        self.title = title
-        self.vc = vc
+        self.title  = title
+        self.vc     = vc
     }
 }

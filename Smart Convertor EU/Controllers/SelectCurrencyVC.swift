@@ -58,5 +58,9 @@ class SelectCurrencyVC: UIViewController {
         
         doneButton.addTarget(self, action: #selector(handleDismiss), for: .allEvents)
     }
+    
+    @objc fileprivate func handleDismiss(){
+        dismiss(animated: true, completion: nil)
+    }
 
 }

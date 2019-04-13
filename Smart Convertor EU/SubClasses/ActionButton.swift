@@ -12,14 +12,14 @@ class ActionButton: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: .zero)
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.clipsToBounds = true
-        self.contentMode = .scaleAspectFill
-        self.titleLabel?.textAlignment = .center
+        self.translatesAutoresizingMaskIntoConstraints  = false
+        self.clipsToBounds                              = true
+        self.contentMode                                = .scaleAspectFill
+        self.titleLabel?.textAlignment                  = .center
         self.setTitleColor(UIColor.white, for: .normal)
-        self.titleLabel?.font = UIFont(name: "AppleSDGothicNeo-Light", size: 14)
-        self.layer.cornerRadius = 5
-        self.tintColor = UIColor(named: "system")
+        self.titleLabel?.font                           = UIFont(name: "AppleSDGothicNeo-Light", size: 14)
+        self.layer.cornerRadius                         = 5
+        self.tintColor                                  = UIColor(named: "system")
         
         
     }

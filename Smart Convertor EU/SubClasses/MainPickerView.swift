@@ -13,9 +13,9 @@ class MainPickerView: UIPickerView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.white
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.layer.masksToBounds = true
+        self.backgroundColor                            = UIColor.white
+        self.translatesAutoresizingMaskIntoConstraints  = false
+        self.layer.masksToBounds                        = true
     }
     
     required init?(coder aDecoder: NSCoder) {

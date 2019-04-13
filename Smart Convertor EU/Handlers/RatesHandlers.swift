@@ -77,10 +77,10 @@ extension RatesVC {
     }
     
     func getYesterdayDate()  -> String {
-        let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: Date())
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
-        let date = dateFormatter.string(from: yesterday!)
+        let yesterday               = Calendar.current.date(byAdding: .day, value: -1, to: Date())
+        let dateFormatter           = DateFormatter()
+        dateFormatter.dateFormat    = "yyyy-MM-dd"
+        let date                    = dateFormatter.string(from: yesterday!)
         return date
     }
     

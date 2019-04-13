@@ -14,15 +14,15 @@ class MainSmallLabel: UILabel {
     
     init(text: String, textAligment: NSTextAlignment, numberOfLines: Int) {
         super.init(frame: .zero)
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.textAlignment = textAligment
-        self.font = UIFont(name: .liteFont, size: mainTextSize)
-        self.textColor = .mainTextColor
-        self.text = text
-        self.adjustsFontSizeToFitWidth = true
-        self.minimumScaleFactor = 0.5
-        self.numberOfLines = numberOfLines
-        self.backgroundColor = UIColor.white
+        self.translatesAutoresizingMaskIntoConstraints  = false
+        self.textAlignment                              = textAligment
+        self.font                                       = UIFont(name: .liteFont, size: mainTextSize)
+        self.textColor                                  = .mainTextColor
+        self.text                                       = text
+        self.adjustsFontSizeToFitWidth                  = true
+        self.minimumScaleFactor                         = 0.5
+        self.numberOfLines                              = numberOfLines
+        self.backgroundColor                            = UIColor.white
     }
     
     required init?(coder aDecoder: NSCoder) {

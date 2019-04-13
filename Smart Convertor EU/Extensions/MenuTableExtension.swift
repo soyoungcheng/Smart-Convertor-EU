@@ -26,10 +26,10 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource {
             let menu = menuList[indexPath.row]
             cell.textLabel?.text = menu.title
         }
-        cell.textLabel?.textAlignment = .center
-        cell.textLabel?.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 30)
-        cell.textLabel?.textColor = UIColor.darkGray
-        cell.backgroundColor = UIColor.white.withAlphaComponent(0)
+        cell.textLabel?.textAlignment   = .center
+        cell.textLabel?.font            = UIFont(name: "AppleSDGothicNeo-Regular", size: 30)
+        cell.textLabel?.textColor       = UIColor.darkGray
+        cell.backgroundColor            = UIColor.white.withAlphaComponent(0)
         return cell
     }
     

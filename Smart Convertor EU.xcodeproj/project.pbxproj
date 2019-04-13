@@ -22,7 +22,6 @@
 		C062576D214163D3002F9621 /* TextExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625755214163D3002F9621 /* TextExt.swift */; };
 		C062576E214163D3002F9621 /* MenuTableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625756214163D3002F9621 /* MenuTableExtension.swift */; };
 		C062576F214163D3002F9621 /* MainHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625758214163D3002F9621 /* MainHandlers.swift */; };
-		C0625770214163D3002F9621 /* SelectCurrencyHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */; };
 		C0625771214163D3002F9621 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575B214163D3002F9621 /* CurrencyModel.swift */; };
 		C0625772214163D3002F9621 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575C214163D3002F9621 /* MenuModel.swift */; };
 		C0625773214163D3002F9621 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C062575E214163D3002F9621 /* ShapeView.swift */; };
@@ -89,7 +88,6 @@
 		C0625755214163D3002F9621 /* TextExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextExt.swift; sourceTree = "<group>"; };
 		C0625756214163D3002F9621 /* MenuTableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableExtension.swift; sourceTree = "<group>"; };
 		C0625758214163D3002F9621 /* MainHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHandlers.swift; sourceTree = "<group>"; };
-		C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCurrencyHandlers.swift; sourceTree = "<group>"; };
 		C062575B214163D3002F9621 /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
 		C062575C214163D3002F9621 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
 		C062575E214163D3002F9621 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 			children = (
 				C0625758214163D3002F9621 /* MainHandlers.swift */,
 				C062578E21416D9C002F9621 /* RatesHandlers.swift */,
-				C0625759214163D3002F9621 /* SelectCurrencyHandlers.swift */,
 				C062577E21416705002F9621 /* AboutHandlers.swift */,
 			);
 			path = Handlers;
@@ -414,7 +411,6 @@
 				C062577D21416664002F9621 /* AboutVC.swift in Sources */,
 				C0625771214163D3002F9621 /* CurrencyModel.swift in Sources */,
 				C0625783214168F4002F9621 /* NavigationVC.swift in Sources */,
-				C0625770214163D3002F9621 /* SelectCurrencyHandlers.swift in Sources */,
 				C06257272141639E002F9621 /* Smart_Convertor_EU.xcdatamodeld in Sources */,
 				C062576C214163D3002F9621 /* NotificationNameExt.swift in Sources */,
 				C0625773214163D3002F9621 /* ShapeView.swift in Sources */,
