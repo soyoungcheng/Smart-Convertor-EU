@@ -19,9 +19,13 @@ extension MainVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let menu = menuList[indexPath.row]
         let cell = menuTable.dequeueReusableCell(withIdentifier: menuCellId, for: indexPath)
-        cell.textLabel?.text = menu.title
+        if menuList.isEmpty {
+            
+        }else{
+            let menu = menuList[indexPath.row]
+            cell.textLabel?.text = menu.title
+        }
         cell.textLabel?.textAlignment = .center
         cell.textLabel?.font = UIFont(name: "AppleSDGothicNeo-Regular", size: 30)
         cell.textLabel?.textColor = UIColor.darkGray

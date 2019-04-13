@@ -14,14 +14,14 @@ extension MainVC {
         if (menuShowing){
             UIView.animate(withDuration: 0.3) {
                 self.heightAnchor?.isActive = false
-                self.heightAnchor = self.menuGlassView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
+                self.heightAnchor           = self.menuGlassView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
                 self.heightAnchor?.isActive = true
                 self.view.layoutIfNeeded()
             }
         }else{
             UIView.animate(withDuration: 0.3, animations: {
                 self.heightAnchor?.isActive = false
-                self.heightAnchor = self.menuGlassView.bottomAnchor.constraint(equalTo: self.view.topAnchor)
+                self.heightAnchor           = self.menuGlassView.bottomAnchor.constraint(equalTo: self.view.topAnchor)
                 self.heightAnchor?.isActive = true
                 self.view.layoutIfNeeded()
             }) { (true) in

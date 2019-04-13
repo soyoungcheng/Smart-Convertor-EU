@@ -18,8 +18,8 @@ extension MainVC: UITextFieldDelegate {
         }
         
         //Limit the character count to 10.
-        if ((mainTextField.text!) + string).count > 30 {
-            Alert.showBasic(title: "Max Length", msg: "Maximum amount of numbers in the field is 5", vc: self)
+        if ((mainTextField.text!) + string).count > 20 {
+            Alert.showBasic(title: "Max Length", msg: "Maximum amount of numbers in the field is 20", vc: self)
             return false
         }
         

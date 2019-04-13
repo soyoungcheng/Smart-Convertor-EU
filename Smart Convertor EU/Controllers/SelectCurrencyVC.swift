@@ -24,8 +24,8 @@ class SelectCurrencyVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pickerView.delegate = self
-        pickerView.dataSource = self
+        pickerView.delegate     = self
+        pickerView.dataSource   = self
         setupNavBar()
         setupView()
     }
@@ -36,22 +36,26 @@ class SelectCurrencyVC: UIViewController {
         view.addSubview(doneButton)
         
         containerView.addSubview(pickerView)
-        containerView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 20).isActive = true
-        containerView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 70).isActive = true
-        containerView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -70).isActive = true
-        containerView.heightAnchor.constraint(equalToConstant: 160).isActive = true
         
-        pickerView.centerXAnchor.constraint(equalTo: containerView.centerXAnchor).isActive = true
-        pickerView.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
-        pickerView.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
-        pickerView.topAnchor.constraint(equalTo: containerView.topAnchor).isActive = true
-        pickerView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor).isActive = true
+        NSLayoutConstraint.activate([
+            
+            containerView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 20),
+            containerView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 70),
+            containerView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -70),
+            containerView.heightAnchor.constraint(equalToConstant: 160),
+            
+            pickerView.leftAnchor.constraint(equalTo: containerView.leftAnchor),
+            pickerView.rightAnchor.constraint(equalTo: containerView.rightAnchor),
+            pickerView.topAnchor.constraint(equalTo: containerView.topAnchor),
+            pickerView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
+            
+            doneButton.topAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 10),
+            doneButton.leftAnchor.constraint(equalTo: containerView.leftAnchor),
+            doneButton.rightAnchor.constraint(equalTo: containerView.rightAnchor),
+            doneButton.heightAnchor.constraint(equalToConstant: 35),
+            
+            ])
         
-        doneButton.topAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 10).isActive = true
-        doneButton.leftAnchor.constraint(equalTo: containerView.leftAnchor).isActive = true
-        doneButton.rightAnchor.constraint(equalTo: containerView.rightAnchor).isActive = true
-        doneButton.heightAnchor.constraint(equalToConstant: 35).isActive = true
         doneButton.addTarget(self, action: #selector(handleDismiss), for: .allEvents)
     }
 

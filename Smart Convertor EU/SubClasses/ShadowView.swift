@@ -16,7 +16,7 @@ class ShadowView: UIView {
         self.translatesAutoresizingMaskIntoConstraints = false
         self.layer.masksToBounds = false
         self.backgroundColor = .white
-        self.layer.cornerRadius = 14
+        self.layer.cornerRadius = 5
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOffset = CGSize(width: 1, height: 5)
         self.layer.shadowRadius = 8

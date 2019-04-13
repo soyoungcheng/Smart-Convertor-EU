@@ -10,10 +10,10 @@ import UIKit
 
 class RateDiffCell: UICollectionViewCell {
     
-    let flagImage = MainImageView(imageName: "")
-    let currencyName = MainLabel(text: "", textAligment: .left, numberOfLines: 1)
-    let currencyRate = MainSmallLabel(text: "", textAligment: .left, numberOfLines: 1)
-    let resultLabel = MainLabel(text: "", textAligment: .right, numberOfLines: 1)
+    let flagImage       = MainImageView(imageName: "")
+    let currencyName    = MainLabel(text: "", textAligment: .left, numberOfLines: 1)
+    let currencyRate    = MainSmallLabel(text: "", textAligment: .left, numberOfLines: 1)
+    let resultLabel     = MainLabel(text: "", textAligment: .right, numberOfLines: 1)
     
     fileprivate func setupView(){
         style(view: contentView)
@@ -22,30 +22,34 @@ class RateDiffCell: UICollectionViewCell {
         contentView.addSubview(currencyRate)
         contentView.addSubview(resultLabel)
         
-        flagImage.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-        flagImage.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 20).isActive = true
-        flagImage.heightAnchor.constraint(equalToConstant: 35).isActive = true
-        flagImage.widthAnchor.constraint(equalToConstant: 35).isActive = true
+        resultLabel.clipsToBounds       = true
+        resultLabel.layer.cornerRadius  = 5
+        resultLabel.textColor           = .white
+        resultLabel.textAlignment       = .center
         
-        currencyName.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5).isActive = true
-        currencyName.bottomAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-        currencyName.leftAnchor.constraint(equalTo: flagImage.rightAnchor, constant: 20).isActive = true
-        currencyName.rightAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-        
-        
-        currencyRate.topAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-        currencyRate.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -5).isActive = true
-        currencyRate.leftAnchor.constraint(equalTo: flagImage.rightAnchor, constant: 20).isActive = true
-        currencyRate.rightAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
-        
-        resultLabel.clipsToBounds = true
-        resultLabel.layer.cornerRadius = 5
-        resultLabel.textColor = .white
-        resultLabel.textAlignment = .center
-        resultLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
-        resultLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -20).isActive = true
-        resultLabel.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        resultLabel.widthAnchor.constraint(equalToConstant: 50).isActive = true
+        NSLayoutConstraint.activate([
+            
+            flagImage.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            flagImage.leftAnchor.constraint(equalTo: contentView.leftAnchor, constant: 20),
+            flagImage.heightAnchor.constraint(equalToConstant: 35),
+            flagImage.widthAnchor.constraint(equalToConstant: 35),
+            
+            currencyName.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
+            currencyName.bottomAnchor.constraint(equalTo: contentView.centerYAnchor),
+            currencyName.leftAnchor.constraint(equalTo: flagImage.rightAnchor, constant: 20),
+            currencyName.rightAnchor.constraint(equalTo: contentView.centerXAnchor),
+
+            currencyRate.topAnchor.constraint(equalTo: contentView.centerYAnchor),
+            currencyRate.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -5),
+            currencyRate.leftAnchor.constraint(equalTo: flagImage.rightAnchor, constant: 20),
+            currencyRate.rightAnchor.constraint(equalTo: contentView.centerXAnchor),
+
+            resultLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            resultLabel.rightAnchor.constraint(equalTo: contentView.rightAnchor, constant: -20),
+            resultLabel.heightAnchor.constraint(equalToConstant: 30),
+            resultLabel.widthAnchor.constraint(equalToConstant: 50),
+            
+            ])
     }
     
     override init(frame: CGRect) {
@@ -58,22 +62,22 @@ class RateDiffCell: UICollectionViewCell {
     }
     
     fileprivate func style(view: UIView) {
-        view.layer.masksToBounds = false
-        view.backgroundColor = .white
-        view.layer.cornerRadius = 14
-        view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOffset = CGSize(width: 1, height: 5)
-        view.layer.shadowRadius = 8
-        view.layer.shadowOpacity = 0.2
-        view.layer.shadowPath = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: .allCorners, cornerRadii: CGSize(width: 14, height: 14)).cgPath
-        view.layer.shouldRasterize = true
-        view.layer.rasterizationScale = UIScreen.main.scale
+        view.layer.masksToBounds        = false
+        view.backgroundColor            = .white
+        view.layer.cornerRadius         = 14
+        view.layer.shadowColor          = UIColor.black.cgColor
+        view.layer.shadowOffset         = CGSize(width: 1, height: 5)
+        view.layer.shadowRadius         = 8
+        view.layer.shadowOpacity        = 0.2
+        view.layer.shadowPath           = UIBezierPath(roundedRect: view.bounds, byRoundingCorners: .allCorners, cornerRadii: CGSize(width: 14, height: 14)).cgPath
+        view.layer.shouldRasterize      = true
+        view.layer.rasterizationScale   = UIScreen.main.scale
     }
     
     public func updateData(rate: Rate, entery: Double, currentCurrency: String){
-        currencyName.text = "\(currentCurrency)/\(rate.currency)"
-        currencyRate.text = "Current rate: \(String(rate.rate))"
-        flagImage.image = UIImage(named: rate.currency)
+        currencyName.text   = "\(currentCurrency)/\(rate.currency)"
+        currencyRate.text   = "Current rate: \(String(rate.rate))"
+        flagImage.image     = UIImage(named: rate.currency)
         if entery == 0{
             resultLabel.text = ""
         }else{

@@ -31,8 +31,6 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
             let amount = Double(mainTextField.text!)
             cell.updateData(rate: rate, entery: amount!)
         }
-        
-        
             return cell
     }
     
@@ -45,7 +43,7 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-            return CGSize(width: view.frame.width - 40, height: 50)
+            return CGSize(width: view.frame.width - 40, height: 45)
     }
     
     
